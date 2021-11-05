@@ -6,7 +6,7 @@ body {
 .background {
     width: 100vw;
     height: 100vh;
-    background: #000C40;
+    background: #020202;
 }
 
 $particleSize: 20vmin;
@@ -23,12 +23,9 @@ $amount: 20;
    animation-timing-function: linear;
    animation-iteration-count: infinite;
    $colors: (
-    //    #583C87,
-    //    #E45A84,
-    //    #FFACAC,
-        #e3e4de,
-        #7e8b04,
-        #851d10,
+        #f5fadf,
+        #e9fc3f,
+        #f2fa80,
    );
    @for $i from 1 through $amount {
     &:nth-child(#{$i}) {
